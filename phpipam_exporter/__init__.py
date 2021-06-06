@@ -2,4 +2,4 @@
 
 __author__ = """Martin Korbel"""
 __email__ = 'git@blackserver.cz'
-__version__ = '0.2.0'
+__version__ = '__version__ = '0.2.0''

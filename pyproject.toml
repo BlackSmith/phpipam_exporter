@@ -1,7 +1,7 @@
 [tool]
 [tool.poetry]
 name = "phpipam_exporter"
-version = "0.2.0"
+version = "version = "0.2.0""
 homepage = "https://github.com/BlackSmith/phpipam_exporter"
 description = "Top-level package for phpipam-exporter."
 authors = ["Martin Korbel <git@blackserver.cz>"]
