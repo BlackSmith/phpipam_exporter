@@ -9,7 +9,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 import click
 
-from libs.ipam import IPAM
+from .libs.ipam import IPAM
 
 BASE_DIR = f'{os.path.dirname(os.path.realpath(__file__))}/'
 
