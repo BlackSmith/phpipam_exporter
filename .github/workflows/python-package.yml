@@ -34,7 +34,7 @@ jobs:
       run: |
         pytest -v tests
     - name: Build project for distribution
-        run: poetry build
+      run: poetry build
     - name: Publish to PyPI
       env:
         POETRY_PYPI_TOKEN_PYPI: ${{ secrets.PYPI_TOKEN }}
