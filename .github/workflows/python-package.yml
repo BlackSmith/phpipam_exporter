@@ -28,7 +28,7 @@ jobs:
       env:
         POETRY_VIRTUALENVS_CREATE: false
     - name: Lint with flake8
-      run: |        
+      run: |
         flake8 .
     - name: Test with pytest
       run: |
@@ -37,3 +37,4 @@ jobs:
       uses: JRubics/poetry-publish@v1.6
       with:
         pypi_token: ${{ secrets.PYPI_TOKEN }}
+        ignore_dev_requirements: "yes"
