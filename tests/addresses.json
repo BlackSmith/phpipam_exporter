@@ -1,0 +1,86 @@
+[
+    {
+    "PTR": "0",
+    "PTRignore": "0",
+    "customer_id": "2",
+    "description": "PC1",
+    "deviceId": null,
+    "editDate": "2021-06-04 15:00:02",
+    "excludePing": "0",
+    "firewallAddressObject": null,
+    "hostname": "pc1.exnample.com",
+    "id": "51",
+    "ip": "192.168.1.10",
+    "is_gateway": null,
+    "lastSeen": "2021-06-04 17:00:00",
+    "links": [
+      {
+        "href": "/api/exporter/addresses/51/",
+        "rel": "self"
+      }
+    ],
+    "location": "1",
+    "mac": "78:8a:20:cc:bb:aa",
+    "note": "PC1",
+    "owner": null,
+    "port": null,
+    "subnetId": "9",
+    "tag": "2"
+  },
+  {
+    "PTR": "0",
+    "PTRignore": "0",
+    "customer_id": "2",
+    "description": "pc2",
+    "deviceId": null,
+    "editDate": "2021-06-04 15:00:02",
+    "excludePing": "0",
+    "firewallAddressObject": null,
+    "hostname": "pc2.example.com",
+    "id": "44",
+    "ip": "192.168.1.11",
+    "is_gateway": null,
+    "lastSeen": "2021-06-04 17:00:00",
+    "links": [
+      {
+        "href": "/api/exporter/addresses/44/",
+        "rel": "self"
+      }
+    ],
+    "location": "1",
+    "mac": "84:34:97:aa:aa:bb",
+    "note": "PC 2",
+    "owner": null,
+    "port": null,
+    "subnetId": "9",
+    "tag": "2"
+  },
+  {
+    "PTR": "0",
+    "PTRignore": "0",
+    "customer_id": "1",
+    "description": "Switch 1",
+    "deviceId": null,
+    "editDate": "2021-06-04 15:00:02",
+    "excludePing": "0",
+    "firewallAddressObject": null,
+    "hostname": "switch1.exnample.com",
+    "id": "46",
+    "ip": "192.168.1.250",
+    "is_gateway": null,
+    "lastSeen": "2021-06-04 17:00:00",
+    "links": [
+      {
+        "href": "/api/exporter/addresses/46/",
+        "rel": "self"
+      }
+    ],
+    "location": "3",
+    "mac": "54:e6:fc:bb:bb:bb",
+    "note": "Switch",
+    "owner": null,
+    "port": null,
+    "subnetId": "9",
+    "tag": "2"
+  }
+]
