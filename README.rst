@@ -51,7 +51,7 @@ All parameters can be defined as environment variables.
 
 
 Generate API token
-============
+======================
 
 Enable API plugin:  ``Administration > phpIPAM settings > API = On``
 
@@ -146,7 +146,7 @@ json format
 
 
 Custom template
-============
+=======================
 We can create a custom `Jinja <https://jinja2docs.readthedocs.io/en/stable/>`_ template file and use it for formating output data. The addresses are stored in the ``addresses`` template variable. Attributes of each device are described here `3.4 Addresses controller <https://phpipam.net/api-documentation/>`_ or we can use ``json`` format to get all attributes.
 
 

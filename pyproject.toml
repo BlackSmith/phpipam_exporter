@@ -36,6 +36,7 @@ flake8 = "*"
 pylint = "*"
 pytest = "*"
 mock = "^4.0.3"
+readme-renderer = "^29.0"
 
 [tool.poetry.scripts]
 phpipam_export = 'phpipam_exporter.cli:main'
