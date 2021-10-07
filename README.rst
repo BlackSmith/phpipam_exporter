@@ -1,8 +1,9 @@
+.. image:: https://badge.fury.io/py/phpipam-exporter.svg
+    :target: https://badge.fury.io/py/phpipam-exporter
+
 ================
 phpipam-exporter
 ================
-
-
 
 The generator DHCP, DNS or hosts records from `phpipam <https://phpipam.net/>`_.
 
