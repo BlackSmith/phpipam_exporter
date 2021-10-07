@@ -25,7 +25,6 @@ Jinja2 = "^3.0.1"
 requests = "^2.25.1"
 
 [tool.poetry.dev-dependencies]
-bumpversion = "*"
 flake8 = "*"
 pylint = "*"
 pytest = "*"
