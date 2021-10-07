@@ -1,22 +1,16 @@
 [tool]
 [tool.poetry]
 name = "phpipam_exporter"
-version = "version = "0.2.0""
+version = "0.2.0"
 homepage = "https://github.com/BlackSmith/phpipam_exporter"
 description = "Top-level package for phpipam-exporter."
 authors = ["Martin Korbel <git@blackserver.cz>"]
 readme = "README.rst"
 license =  "MIT"
 classifiers=[
-    'Development Status :: 2 - Pre-Alpha',
     'Intended Audience :: Developers',
     'License :: OSI Approved :: MIT License',
-    'Natural Language :: English',
     'Programming Language :: Python :: 3',
-    'Programming Language :: Python :: 3.5',
-    'Programming Language :: Python :: 3.6',
-    'Programming Language :: Python :: 3.7',
-    'Programming Language :: Python :: 3.8',
 ]
 packages = [
     { include = "phpipam_exporter" },
