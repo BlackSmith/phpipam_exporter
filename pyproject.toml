@@ -18,11 +18,12 @@ packages = [
 ]
 
 [tool.poetry.dependencies]
-python = ">=3.7"
+python = ">=3.7,<4"
 click = "*"
 certifi = "^2020.12.5"
 Jinja2 = "^3.0.1"
 requests = "^2.25.1"
+urllib3 = "^1.26.0"
 
 [tool.poetry.dev-dependencies]
 flake8 = "*"
