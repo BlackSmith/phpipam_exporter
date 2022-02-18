@@ -1,6 +1,5 @@
 """Main module."""
 import logging
-
 from .api import Api
 
 logger = logging.getLogger('IPAM')
