@@ -11,6 +11,8 @@ on:
     paths:
       - '**.py'
       - '**.yml'
+      - '**.lock'
+      - '**.toml'
     branches:
       - '**'
 
