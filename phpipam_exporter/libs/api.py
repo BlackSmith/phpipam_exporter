@@ -47,14 +47,13 @@ class Api:
                                          f"Host: {self.api_url}") from ex
 
         if req.status_code != requests.codes.ok:
-            logging.warning("Bad API request ({}).".format(req.status_code))
-            return None
+            raise ApiConnectionException(
+                f"Bad API request ({req.status_code}).")
         data = req.json()
         logging.debug(data)
         if data.get(self.response_status_parameter) != self.good_status:
-            logging.warning("Request failed. '{}'".format(
+            raise ApiConnectionException("Request failed. '{}'".format(
                 data.get(self.response_error_parameter, 'X')))
-            return None
         if self.result_data_parameter and self.result_data_parameter in data:
             return data[self.result_data_parameter]
         return data
